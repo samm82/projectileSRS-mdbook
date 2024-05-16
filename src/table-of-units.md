@@ -2,13 +2,13 @@
 
 The unit system used throughout is SI (Système International d'Unités). In addition to the basic units, several derived units are also used. For each unit, the [Table of Units]() lists the symbol, a description, and the SI name.
 
-### Option 1 (MD):
+### Option 1 (MD with LaTeX):
 
-|Symbol|Description|SI Name|
-|------|-----------|-------|
-|*m*   |length     |metre  |
-|*rad* |angle      |radian |
-|*s*   |time       |second |
+|Symbol   |Description|SI Name|
+|---------|-----------|-------|
+|\\(m\\)  |length     |metre  |
+|\\(rad\\)|angle      |radian |
+|\\(s\\)  |time       |second |
 
 <p align="center">Table of Units</p>
 
