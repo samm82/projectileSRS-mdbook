@@ -8,7 +8,7 @@ This section focuses on the general equations and laws that Projectile is based 
 |-|-|
 |**Label**|Acceleration|
 |**Equation**|\\[\boldsymbol{a}\text{(}t\text{)}=\frac{\\,d\boldsymbol{v}\text{(}t\text{)}}{\\,dt}\\]|
-|**Description**|\\(\boldsymbol{a}\text{(}t\text{)}\\) is the acceleration \\((\frac{\text{m}}{\text{s}^{2}})\\) </br> \\(t\\) is the time (\\({\text{s}}\\)) </br> \\(\boldsymbol{v}\text{(}t\text{)}\\) is the velocity (\\(\frac{\text{m}}{\text{s}}\\))|
+|**Description**|<ul><li>\\(\boldsymbol{a}\text{(}t\text{)}\\) is the acceleration \\((\frac{\text{m}}{\text{s}^{2}})\\) </li><li> \\(t\\) is the time (\\({\text{s}}\\)) </li><li> \\(\boldsymbol{v}\text{(}t\text{)}\\) is the velocity (\\(\frac{\text{m}}{\text{s}}\\))</li></ul>|
 |**Source**|[accelerationWiki]()|
 |**RefBy**|[GD:rectVel]()|
 
@@ -18,7 +18,7 @@ This section focuses on the general equations and laws that Projectile is based 
 |-|-|
 |**Label**|Velocity|
 |**Equation**|\\[\boldsymbol{v}\text{(}t\text{)}=\frac{\\,d\boldsymbol{p}\text{(}t\text{)}}{\\,dt}\\]|
-|**Description**|\\(\boldsymbol{v}\text{(}t\text{)}\\) is the velocity \\((\frac{\text{m}}{\text{s}})\\) </br> \\(t\\) is the time (\\({\text{s}}\\)) </br> \\(\boldsymbol{p}\text{(}t\text{)}\\) is the position (\\(\text{m}\\))|
+|**Description**|<ul><li>\\(\boldsymbol{v}\text{(}t\text{)}\\) is the velocity \\((\frac{\text{m}}{\text{s}})\\) </li><li> \\(t\\) is the time (\\({\text{s}}\\)) </li><li> \\(\boldsymbol{p}\text{(}t\text{)}\\) is the position (\\(\text{m}\\))</li></ul>|
 |**Source**|[velocityWiki]()|
 |**RefBy**|[GD:rectPos]()|
 

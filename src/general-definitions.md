@@ -7,7 +7,7 @@ This section collects the laws and equations that will be used to build the inst
 |**Label**|Rectilinear (1D) velocity as a function of time for constant acceleration|
 |**Units**|\\(\frac{\text{m}}{\text{s}}\\)|
 |**Equation**|\\[v\text{(}t\text{)}={v^{\text{i}}}+{a^{c}} t\\]|
-|**Description**|\\(v\text{(}t\text{)}\\) is the 1D speed (\\(\frac{\text{m}}{\text{s}}\\)) </br> \\({v^{\text{i}}}\\) is the initial speed (\\(\frac{\text{m}}{\text{s}}\\)) </br> \\({a^{c}}\\) is the constant acceleration (\\(\frac{\text{m}}{\text{s}^{2}}\\)) </br> \\(t\\) is the time (\\({\text{s}}\\))|
+|**Description**|<ul><li>\\(v\text{(}t\text{)}\\) is the 1D speed (\\(\frac{\text{m}}{\text{s}}\\)) </li> <li> \\({v^{\text{i}}}\\) is the initial speed (\\(\frac{\text{m}}{\text{s}}\\)) </li> <li> \\({a^{c}}\\) is the constant acceleration (\\(\frac{\text{m}}{\text{s}^{2}}\\)) </li><li>\\(t\\) is the time (\\({\text{s}}\\)) </li></ul>|
 |**Source**|[hibbeler2004]() (pg. 8)|
 |**RefBy**|[GD:velVec]() and [GD:rectPos]()|
 
