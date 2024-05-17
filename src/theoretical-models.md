@@ -112,5 +112,3 @@ This section focuses on the general equations and laws that Projectile is based 
                     </tr>
                   </table>
                 </div>
-              </div>
-            </div>
