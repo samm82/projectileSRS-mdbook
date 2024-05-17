@@ -4,7 +4,7 @@ The physical system of Projectile, as shown in [Fig:Launch](), includes the foll
 
 PS1: The launcher.
 
-PS2: The projectile (with initial velocity <em><b>v</b><sup>i</sup></em> and launch angle <em>θ</em>).
+PS2: The projectile (with initial velocity \\({\boldsymbol{v}^{\text{i}}}\\) and launch angle \\(θ\\)).
 
 PS3: The target.
 
