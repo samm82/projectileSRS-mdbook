@@ -4,7 +4,7 @@ The symbols used in this document are summarized in the [Table of Symbols]() alo
 
 ### Option 1 (MD with LaTeX):
 
-|Symbol|Description|Units|
+|**Symbol**|**Description**|**Units**|
 |-|-|-|
 |\\(a\\)|Scalar acceleration|\\(\frac{\text{m}}{\text{s}^{2}}\\)|
 |\\(a^{c}\\)|Constant acceleration|\\(\frac{\text{m}}{\text{s}^{2}}\\)|

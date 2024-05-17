@@ -4,11 +4,11 @@ The unit system used throughout is SI (Système International d'Unités). In add
 
 ### Option 1 (MD with LaTeX):
 
-|Symbol   |Description|SI Name|
-|---------|-----------|-------|
-|\\(m\\)  |length     |metre  |
-|\\(rad\\)|angle      |radian |
-|\\(s\\)  |time       |second |
+|**Symbol**|**Description**|**SI Name**|
+|----------|---------------|-----------|
+|\\(m\\)   |length         |metre      |
+|\\(rad\\) |angle          |radian     |
+|\\(s\\)   |time           |second     |
 
 <p align="center">Table of Units</p>
 
