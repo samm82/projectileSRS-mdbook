@@ -56,17 +56,34 @@ Performing the integration, we have the required equation:
 
 </br>
 
-|Refname|GD:velVec|
+|**Refname**|**GD:velVec**|
 |-|-|
-|Label|Velocity vector as a function of time for 2D motion under constant acceleration|
-|Units|\\(\frac{\text{m}}{\text{s}}\\)|
-|Equation|\\[\boldsymbol{v}\text{(}t\text{)}=\begin{bmatrix}{{v_{\text{x}}}^{\text{i}}}+{{a_{\text{x}}}^{\text{c}}} t\\\ {{v_{\text{y}}}^{\text{i}}}+{{a_{\text{y}}}^{\text{c}}} t\end{bmatrix}\\]|
-|Description|<ul><li> \\(\boldsymbol{v}\text{(}t\text{)}\\) is the velocity (\\(\frac{\text{m}}{\text{s}}\\)) </li><li> \\({{v_{\text{x}}}^{\text{i}}}\\) is the \\(x\\)-component of initial velocity (\\(\frac{\text{m}}{\text{s}}\\)) </li><li> \\({{a_{\text{x}}}^{\text{c}}}\\) is the \\(x\\)-component of constant acceleration (\\(\frac{\text{m}}{\text{s}^{2}}\\)) </li><li> \\(t\\) is the time (\\({\text{s}}\\)) </li><li> \\({{v_{\text{y}}}^{\text{i}}}\\) is the \\(y\\)-component of initial velocity (\\(\frac{\text{m}}{\text{s}}\\)) </li><li> \\({{a_{\text{y}}}^{\text{c}}}\\) is the \\(y\\)-component of constant acceleration (\\(\frac{\text{m}}{\text{s}^{2}}\\)) </li></ul>|
-|Source|--|
-|RefBy||
+|**Label**|Velocity vector as a function of time for 2D motion under constant acceleration|
+|**Units**|\\(\frac{\text{m}}{\text{s}}\\)|
+|**Equation**|\\[\boldsymbol{v}\text{(}t\text{)}=\begin{bmatrix}{{v_{\text{x}}}^{\text{i}}}+{{a_{\text{x}}}^{\text{c}}} t\\\ {{v_{\text{y}}}^{\text{i}}}+{{a_{\text{y}}}^{\text{c}}} t\end{bmatrix}\\]|
+|**Description**|<ul><li> \\(\boldsymbol{v}\text{(}t\text{)}\\) is the velocity (\\(\frac{\text{m}}{\text{s}}\\)) </li><li> \\({{v_{\text{x}}}^{\text{i}}}\\) is the \\(x\\)-component of initial velocity (\\(\frac{\text{m}}{\text{s}}\\)) </li><li> \\({{a_{\text{x}}}^{\text{c}}}\\) is the \\(x\\)-component of constant acceleration (\\(\frac{\text{m}}{\text{s}^{2}}\\)) </li><li> \\(t\\) is the time (\\({\text{s}}\\)) </li><li> \\({{v_{\text{y}}}^{\text{i}}}\\) is the \\(y\\)-component of initial velocity (\\(\frac{\text{m}}{\text{s}}\\)) </li><li> \\({{a_{\text{y}}}^{\text{c}}}\\) is the \\(y\\)-component of constant acceleration (\\(\frac{\text{m}}{\text{s}^{2}}\\)) </li></ul>|
+|**Source**|--|
+|**RefBy**||
 
 #### Detailed derivation of velocity vector:
 
 For a two-dimensional Cartesian coordinate system ([twoDMotion]() and [cartSyst]()), we can represent the velocity vector as \\(\boldsymbol{v}\text{(}t\text{)}=\begin{bmatrix}{v_{\text{x}}}\\\ {v_{\text{y}}}\end{bmatrix}\\) and the acceleration vector as \\(\boldsymbol{a}\text{(}t\text{)}=\begin{bmatrix}{a_{\text{x}}}\\\ {a_{\text{y}}}\end{bmatrix}\\). The acceleration is assumed to be constant ([constAccel]()) and the constant acceleration vector is represented as \\({\boldsymbol{a}^{\text{c}}}=\begin{bmatrix}{{a_{\text{x}}}^{\text{c}}}\\\ {{a_{\text{y}}}^{\text{c}}}\end{bmatrix}\\). The initial velocity (at \\(t=0\\), from [timeStartZero]()) is represented by \\({\boldsymbol{v}^{\text{i}}}=\begin{bmatrix}{{v_{\text{x}}}^{\text{i}}}\\\ {{v_{\text{y}}}^{\text{i}}}\end{bmatrix}\\). Since we have a Cartesian coordinate system, [GD:rectVel]() can be applied to each coordinate of the velocity vector to yield the required equation:
 
 \\[\boldsymbol{v}\text{(}t\text{)}=\begin{bmatrix}{{v_{\text{x}}}^{\text{i}}}+{{a_{\text{x}}}^{\text{c}}} t\\\ {{v_{\text{y}}}^{\text{i}}}+{{a_{\text{y}}}^{\text{c}}} t\end{bmatrix}\\]
+
+</br>
+
+|Refname|GD:posVec|
+|-|-|
+|Label|Position vector as a function of time for 2D motion under constant acceleration|
+|Units|\\(m\\)|
+|Equation|\\[\boldsymbol{p}\text{(}t\text{)}=\begin{bmatrix}{{p_{\text{x}}}^{\text{i}}}+{{v_{\text{x}}}^{\text{i}}} t+\frac{{{a_{\text{x}}}^{\text{c}}} t^{2}}{2}\\\ {{p_{\text{y}}}^{\text{i}}}+{{v_{\text{y}}}^{\text{i}}} t+\frac{{{a_{\text{y}}}^{\text{c}}} t^{2}}{2}\end{bmatrix}\\]|
+|Description|<ul><li> \\(\boldsymbol{p}\text{(}t\text{)}\\) is the position (\\({\text{m}}\\)) <li> \\({{p_{\text{x}}}^{\text{i}}}\\) is the \\(x\\)-component of initial position (\\({\text{m}}\\)) </li><li> \\({{v_{\text{x}}}^{\text{i}}}\\) is the $x$-component of initial velocity (\\(\frac{\text{m}}{\text{s}}\\)) </li><li> \\(t\\) is the time (\\({\text{s}}\\)) </li><li> \\({{a_{\text{x}}}^{\text{c}}}\\) is the \\(x\\)-component of constant acceleration (\\(\frac{\text{m}}{\text{s}^{2}}\\)) </li><li> \\({{p_{\text{y}}}^{\text{i}}}\\) is the \\(y\\)-component of initial position (\\({\text{m}}\\)) </li><li> \\({{v_{\text{y}}}^{\text{i}}}\\) is the \\(y\\)-component of initial velocity (\\(\frac{\text{m}}{\text{s}}\\)) </li><li> \\({{a_{\text{y}}}^{\text{c}}}\\) is the \\(y\\)-component of constant acceleration (\\(\frac{\text{m}}{\text{s}^{2}}\\)) </li></ul>|
+|Source|--|
+|RefBy|[IM:calOfLandingDist]() and [IM:calOfLandingTime]()|
+
+#### Detailed derivation of position vector:
+
+For a two-dimensional Cartesian coordinate system ([twoDMotion]() and [cartSyst]()), we can represent the position vector as \\(\boldsymbol{p}\text{(}t\text{)}=\begin{bmatrix}{p_{\text{x}}}\\\ {p_{\text{y}}}\end{bmatrix}\\), the velocity vector as \\(\boldsymbol{v}\text{(}t\text{)}=\begin{bmatrix}{v_{\text{x}}}\\\ {v_{\text{y}}}\end{bmatrix}\\), and the acceleration vector as \\(\boldsymbol{a}\text{(}t\text{)}=\begin{bmatrix}{a_{\text{x}}}\\\ {a_{\text{y}}}\end{bmatrix}\\). The acceleration is assumed to be constant ([constAccel]()) and the constant acceleration vector is represented as \\({\boldsymbol{a}^{\text{c}}}=\begin{bmatrix}{{a_{\text{x}}}^{\text{c}}}\\\ {{a_{\text{y}}}^{\text{c}}}\end{bmatrix}\\). The initial velocity (at \\(t=0\\), from [timeStartZero]()) is represented by \\({\boldsymbol{v}^{\text{i}}}=\begin{bmatrix}{{v_{\text{x}}}^{\text{i}}}\\\ {{v_{\text{y}}}^{\text{i}}}\end{bmatrix}\\). Since we have a Cartesian coordinate system, [GD:rectPos]() can be applied to each coordinate of the position vector to yield the required equation:
+
+\\[\boldsymbol{p}\text{(}t\text{)}=\begin{bmatrix}{{p_{\text{x}}}^{\text{i}}}+{{v_{\text{x}}}^{\text{i}}} t+\frac{{{a_{\text{x}}}^{\text{c}}} t^{2}}{2}\\\ {{p_{\text{y}}}^{\text{i}}}+{{v_{\text{y}}}^{\text{i}}} t+\frac{{{a_{\text{y}}}^{\text{c}}} t^{2}}{2}\end{bmatrix}\\]
