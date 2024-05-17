@@ -4,23 +4,23 @@ This section focuses on the general equations and laws that Projectile is based 
 
 ### Option 1 (MD with LaTeX):
 
-|**Refname**|**TM:acceleration**|
+|Refname|TM:acceleration|
 |-|-|
-|**Label**|Acceleration|
-|**Equation**|\\[\boldsymbol{a}\text{(}t\text{)}=\frac{\\,d\boldsymbol{v}\text{(}t\text{)}}{\\,dt}\\]|
-|**Description**|<ul><li>\\(\boldsymbol{a}\text{(}t\text{)}\\) is the acceleration \\((\frac{\text{m}}{\text{s}^{2}})\\) </li><li> \\(t\\) is the time (\\({\text{s}}\\)) </li><li> \\(\boldsymbol{v}\text{(}t\text{)}\\) is the velocity (\\(\frac{\text{m}}{\text{s}}\\))</li></ul>|
-|**Source**|[accelerationWiki]()|
-|**RefBy**|[GD:rectVel]()|
+|Label|Acceleration|
+|Equation|\\[\boldsymbol{a}\text{(}t\text{)}=\frac{\\,d\boldsymbol{v}\text{(}t\text{)}}{\\,dt}\\]|
+|Description|<ul><li>\\(\boldsymbol{a}\text{(}t\text{)}\\) is the acceleration \\((\frac{\text{m}}{\text{s}^{2}})\\) </li><li> \\(t\\) is the time (\\({\text{s}}\\)) </li><li> \\(\boldsymbol{v}\text{(}t\text{)}\\) is the velocity (\\(\frac{\text{m}}{\text{s}}\\))</li></ul>|
+|Source|[accelerationWiki]()|
+|RefBy|[GD:rectVel]()|
 
 </br>
 
-|**Refname**|TM:velocity|
+|Refname|TM:velocity|
 |-|-|
-|**Label**|Velocity|
-|**Equation**|\\[\boldsymbol{v}\text{(}t\text{)}=\frac{\\,d\boldsymbol{p}\text{(}t\text{)}}{\\,dt}\\]|
-|**Description**|<ul><li>\\(\boldsymbol{v}\text{(}t\text{)}\\) is the velocity \\((\frac{\text{m}}{\text{s}})\\) </li><li> \\(t\\) is the time (\\({\text{s}}\\)) </li><li> \\(\boldsymbol{p}\text{(}t\text{)}\\) is the position (\\(\text{m}\\))</li></ul>|
-|**Source**|[velocityWiki]()|
-|**RefBy**|[GD:rectPos]()|
+|Label|Velocity|
+|Equation|\\[\boldsymbol{v}\text{(}t\text{)}=\frac{\\,d\boldsymbol{p}\text{(}t\text{)}}{\\,dt}\\]|
+|Description|<ul><li>\\(\boldsymbol{v}\text{(}t\text{)}\\) is the velocity \\((\frac{\text{m}}{\text{s}})\\) </li><li> \\(t\\) is the time (\\({\text{s}}\\)) </li><li> \\(\boldsymbol{p}\text{(}t\text{)}\\) is the position (\\(\text{m}\\))</li></ul>|
+|Source|[velocityWiki]()|
+|RefBy|[GD:rectPos]()|
 
 ### Option 2 (HTML):
 

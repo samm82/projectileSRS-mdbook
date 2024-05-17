@@ -2,7 +2,7 @@
 
 ### Option 1 (MD):
 
-|**Abbreviation**|**Full Form**|
+|Abbreviation|Full Form|
 |-|-|
 |1D|One-Dimensional|
 |2D|Two-Dimensional|
