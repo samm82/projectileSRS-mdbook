@@ -86,13 +86,15 @@ Rearranging this gives us the required equation:
 |Refname|IM:messageIM|
 |-|-|
 |Label|Output message|
-|Input||
-|Output||
-|Input Constraints||
-|Output Constraints||
-|Equation||
-|Description|<ul><li>  </li><li>  </li><li>  </li><li>  </li></ul>|
-|Notes|<ul><li>  </li><li>  </li><li>  </li><li>  </li></ul>|
+|Input|\\({d_{\text{offset}}}\\), \\({p_{\text{target}}}\\)|
+|Output|\\(s\\)|
+|Input Constraints|\\[{d_{\text{offset}}}\gt{}-{p_{\text{target}}}\\] \\[{p_{\text{target}}}\gt{}0\\]|
+|Output Constraints| |
+|Equation|\\[s=\begin{cases} \text{\\(\``\\)The target was hit''}, & \left\\|\frac{{d_{\text{offset}}}}{{p_{\text{target}}}}\right\\|<ε\\\ \text{\\(\``\\)The projectile fell short.''}, & {d_{\text{offset}}}<0\\\ \text{\\(\``\\)The projectile went long.''}, & {d_{\text{offset}}}>0 \end{cases}\\]|
+|Description|<ul><li> \\(s\\) is the output message as a string (Unitless) </li><li> \\({d_{\text{offset}}}\\) is the distance between the target position and the landing position (\\({\text{m}}\\)) </li><li> \\({p_{\text{target}}}\\) is the target position (\\({\text{m}}\\)) </li><li> \\(ε\\) is the hit tolerance (Unitless) </li></ul>|
+|Notes|<ul><li> \\({d_{\text{offset}}}\\) is from [IM:offsetIM](). </li><li> The constraint \\({p_{\text{target}}}\gt{}0\\) is from [A:posXDirection](). </li><li> The constraint \\({d_{\text{offset}}}\gt{}-{p_{\text{target}}}\\) is from the fact that \\({p_{\text{land}}}\gt{}0\\), from [A:posXDirection](). </li><li> \\(ε\\) is defined in [Sec:Values of Auxiliary Constants](). </li></ul>|
 |Source|--|
 |RefBy|[FR:Output-Values]() and [FR:Calculate-Values]()|
+
+
 
