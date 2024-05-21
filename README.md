@@ -9,7 +9,7 @@ Please follow the installation instructions in the [mdBook Documentation](https:
 
 ## Demo
 
-1. **Clone the Repository**: Clone this repositiory to your local machine.
+1. **Clone the Repository**: Clone this repository to your local machine.
 2. **Launch the Server**: Open a command line interface in the cloned repository's directory and run `mdbook serve --open`.
 3. **Acces the Local Server**: The terminal will display the `localhost` server address.
 
