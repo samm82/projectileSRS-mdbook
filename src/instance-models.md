@@ -40,15 +40,33 @@ From [DD:speedIY]() (with \\({v^{\text{i}}}={v_{\text{launch}}}\\)) we can repla
 |Refname|IM:calOfLandingDist|
 |-|-|
 |Label|Calculation of landing position|
-|Input||
-|Output||
-|Input Constraints||
-|Output Constraints||
-|Equation||
-|Description|<ul><li>  </li><li>  </li><li>  </li><li>  </li></ul>|
-|Notes|<ul><li>  </li><li>  </li><li>  </li></ul>|
+|Input|\\({v_{\text{launch}}}\\), \\(θ\\)|
+|Output|\\({p_{\text{land}}}\\)|
+|Input Constraints|\\[{v_{\text{launch}}}\gt{}0\\] \\[0\lt{}θ\lt{}\frac{π}{2}\\]|
+|Output Constraints|\\[{p_{\text{land}}}\gt{}0\\]|
+|Equation|\\[{p_{\text{land}}}=\frac{2 {v_{\text{launch}}}^{2} \sin\left(θ\right) \cos\left(θ\right)}{g}\\]|
+|Description|<ul><li> \\({p_{\text{land}}}\\) is the landing position (\\({\text{m}}\\)) </li><li> \\({v_{\text{launch}}}\\) is the launch speed (\\(\frac{\text{m}}{\text{s}}\\)) </li><li> \\(θ\\) is the launch angle (\\({\text{rad}}\\)) </li><li> \\(g\\) is the magnitude of gravitational acceleration (\\(\frac{\text{m}}{\text{s}^{2}}\\)) </li></ul>|
+|Notes|<ul><li> The constraint \\(0\lt{}θ\lt{}\frac{π}{2}\\) is from [A:posXDirection]() and [A:yAxisGravity](), and is shown in [A:Fig:Launch](). </li><li> \\(g\\) is defined in [A:gravAccelValue](). </li><li> The constraint \\({p_{\text{land}}}\gt{}0\\) is from [A:posXDirection](). </li></ul>|
 |Source|--|
 |RefBy|[IM:offsetIM]() and [FR:Calculate-Values]()|
+
+#### Detailed derivation of landing position:
+
+We know that \\({{p_{\text{x}}}^{\text{i}}}=0\\) ([A:launchOrigin]()) and \\({{a_{\text{x}}}^{\text{c}}}=0\\) ([A:accelXZero]()). Substituting these values into the x-direction of [GD:posVec]{GD:posVec} gives us:
+
+\\[{p_{\text{x}}}={{v_{\text{x}}}^{\text{i}}} t\\]
+
+To find the landing position, we want to find the \\({p_{\text{x}}}\\) value (\\({p_{\text{land}}}\\)) at flight duration (from [IM:calOfLandingTime]()):
+
+\\[{p_{\text{land}}}=\frac{{{v_{\text{x}}}^{\text{i}}}\cdot{}2 {v_{\text{launch}}} \sin\left(θ\right)}{g}\\]
+
+From [DD:speedIX]() (with \\({v^{\text{i}}}={v_{\text{launch}}}\\)) we can replace \\({{v_{\text{x}}}^{\text{i}}}\\):
+
+\\[{p_{\text{land}}}=\frac{{v_{\text{launch}}} \cos\left(θ\right)\cdot{}2 {v_{\text{launch}}} \sin\left(θ\right)}{g}\\]
+
+Rearranging this gives us the required equation:
+
+\\[{p_{\text{land}}}=\frac{2 {v_{\text{launch}}}^{2} \sin\left(θ\right) \cos\left(θ\right)}{g}\\]
 
 |Refname|IM:offsetIM|
 |-|-|
