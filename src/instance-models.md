@@ -13,7 +13,7 @@ This section transforms the problem defined in the [problem description](./probl
 |Description|<ul><li> \\({t_{\text{flight}}}\\) is the flight duration (\\({\text{s}}\\)) </li><li> \\({v_{\text{launch}}}\\) is the launch speed (\\(\frac{\text{m}}{\text{s}}\\)) </li><li> \\(θ\\) is the launch angle (\\({\text{rad}}\\)) </li><li> \\(g\\) is the magnitude of gravitational acceleration (\\(\frac{\text{m}}{\text{s}^{2}}\\)) </li></ul>|
 |Notes|<ul><li> The constraint \\(0\lt{}θ\lt{}\frac{π}{2}\\) is from [A:posXDirection]() and [A:yAxisGravity](), and is shown in [Fig:Launch](). </li><li> \\(g\\) is defined in [A:gravAccelValue](). </li><li> The constraint \\({t_{\text{flight}}}\gt{}0\\) is from [A:timeStartZero](). </li></ul>|
 |Source|--|
-|RefBy|[IM:calOfLandingDist(), [FR:Output-Values](), and [FR:Calculate-Values]()]
+|RefBy|[IM:calOfLandingDist](), [FR:Output-Values](), and [FR:Calculate-Values]()|
 
 #### Detailed derivation of flight duration:
 
@@ -36,4 +36,43 @@ Solving for \\({t_{\text{flight}}}\\) gives us:
 From [DD:speedIY]() (with \\({v^{\text{i}}}={v_{\text{launch}}}\\)) we can replace \\({{v_{\text{y}}}^{\text{i}}}\\):
 
 \\[{t_{\text{flight}}}=\frac{2 {v_{\text{launch}}} \sin\left(θ\right)}{g}\\]
+
+|Refname|IM:calOfLandingDist|
+|-|-|
+|Label|Calculation of landing position|
+|Input||
+|Output||
+|Input Constraints||
+|Output Constraints||
+|Equation||
+|Description|<ul><li>  </li><li>  </li><li>  </li><li>  </li></ul>|
+|Notes|<ul><li>  </li><li>  </li><li>  </li></ul>|
+|Source|--|
+|RefBy|[IM:offsetIM]() and [FR:Calculate-Values]()|
+
+|Refname|IM:offsetIM|
+|-|-|
+|Label|Offset|
+|Input||
+|Output||
+|Input Constraints||
+|Output Constraints| |
+|Equation||
+|Description|<ul><li>  </li><li>  </li><li>  </li></ul>|
+|Notes|<ul><li>  </li><li>  </li></ul>|
+|Source|--|
+|RefBy|[IM:messageIM](), [FR:Output-Values](), and [FR:Calculate-Values]()|
+
+|Refname|IM:messageIM|
+|-|-|
+|Label|Output message|
+|Input||
+|Output||
+|Input Constraints||
+|Output Constraints||
+|Equation||
+|Description|<ul><li>  </li><li>  </li><li>  </li><li>  </li></ul>|
+|Notes|<ul><li>  </li><li>  </li><li>  </li><li>  </li></ul>|
+|Source|--|
+|RefBy|[FR:Output-Values]() and [FR:Calculate-Values]()|
 
