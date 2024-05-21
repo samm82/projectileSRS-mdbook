@@ -30,3 +30,8 @@ Please follow the installation instructions in the [mdBook Documentation](https:
 - Having a page for Table of Contents may be redundant as mdBook automatically creates one for you.
 - The HTML SRS for variables or short equations often uses HTML syntax, rather than LaTeX. For example, `<em></em>` for italicizing single variables. This creates slight differences in appearance within the SRS. The mdBook demo uses LaTeX for everything.
 - Each section and subsection has its own page. As a result, some pages have very little content.
+- Can format code for tables in two ways:
+  - nice, visually readable code but longer
+    - https://github.com/BilalM04/projectileSRS-mdbook/blob/9cc1553a9c9f95de1735dcc81c5f3285f6c073f2/src/table-of-units.md?plain=1#L6-L12
+  - less readable code but shorter
+    - https://github.com/BilalM04/projectileSRS-mdbook/blob/9cc1553a9c9f95de1735dcc81c5f3285f6c073f2/src/auxiliary-constants.md?plain=1#L4-L10
