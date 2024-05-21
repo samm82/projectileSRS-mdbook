@@ -12,3 +12,12 @@ Please follow the installation instructions in the [mdBook Documentation](https:
 1. **Clone the Repository**: Clone this repositiory to your local machine.
 2. **Launch the Server**: Open a command line interface in the cloned repository's directory and run `mdbook serve --open`.
 3. **Acces the Local Server**: The terminal will display the `localhost` server address.
+
+## mdBook Quirks
+
+- Have to wrap text reference anchors in `<a id=""></a>` to be able to be referenced.
+- Cannot add captions to tables and images. Have to use `<p align="center">CAPTION</p>`.
+- Mathjax LaTeX equations do not wrap similar to LaTeX (`$EQUATION$`) or HTML (`\(EQUATION\)`). mdBook syntax is `\\(EQUATION\\)` for inline and `\\[EQUATION\\]` for block equations.
+- Some elements of equations require an extra `\`. Ex. new line is `\\\`.
+- `\symbf` does not work in Mathjax LaTeX equations, have to use `\boldsymbol` instead.
+- Typical list syntax does not work inside tables in Markdown. Have to wrap in `<ul> <li>item1</li> <li>item2</li> </ul>`.
