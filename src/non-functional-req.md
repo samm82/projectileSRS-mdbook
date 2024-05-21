@@ -2,7 +2,7 @@
 
 This section provides the non-functional requirements, the qualities that the software is expected to exhibit.
 
-Correct: The outputs of the code have the properties described in [Properties of a Correct Solution]().
+Correct: The outputs of the code have the properties described in [Properties of a Correct Solution](./properties-of-solution.md).
 
 Verifiable: The code is tested with complete verification and validation plan.
 
