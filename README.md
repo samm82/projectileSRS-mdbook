@@ -21,3 +21,12 @@ Please follow the installation instructions in the [mdBook Documentation](https:
 - Some elements of equations require an extra `\`. Ex. new line is `\\\`.
 - `\symbf` does not work in Mathjax LaTeX equations, have to use `\boldsymbol` instead.
 - Typical list syntax does not work inside tables in Markdown. Have to wrap in `<ul> <li>item1</li> <li>item2</li> </ul>`.
+- Accessible assets (Ex. images) need to be inside the `src` folder in order to be rendered.
+- Sometimes there is very little space or no space at all between components. Added `</br>` to add extra space.
+- Need to add mathjax support in the `book.toml`. Not added by default.
+
+## Other Notes
+
+- Having a page for Table of Contents may be redundant as mdBook automatically creates one for you.
+- The HTML SRS for variables or short equations often uses HTML syntax, rather than LaTeX. For example, `<em></em>` for italicizing single variables. This creates slight differences in appearance within the SRS. The mdBook demo uses LaTeX for everything.
+- Each section and subsection has its own page. As a result, some pages have very little content.
