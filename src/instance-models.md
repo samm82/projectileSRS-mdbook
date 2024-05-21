@@ -71,15 +71,17 @@ Rearranging this gives us the required equation:
 |Refname|IM:offsetIM|
 |-|-|
 |Label|Offset|
-|Input||
-|Output||
-|Input Constraints||
+|Input|\\({p_{\text{land}}}\\), \\({p_{\text{target}}}\\)|
+|Output|\\({d_{\text{offset}}}\\)|
+|Input Constraints|\\[{p_{\text{land}}}\gt{}0\\] \\[{p_{\text{target}}}\gt{}0\\]|
 |Output Constraints| |
-|Equation||
-|Description|<ul><li>  </li><li>  </li><li>  </li></ul>|
-|Notes|<ul><li>  </li><li>  </li></ul>|
+|Equation|\\[{d_{\text{offset}}}={p_{\text{land}}}-{p_{\text{target}}}\\]|
+|Description|<ul><li> \\({d_{\text{offset}}}\\) is the distance between the target position and the landing position (\\({\text{m}}\\)) </li><li> \\({p_{\text{land}}}\\) is the landing position (\\({\text{m}}\\)) </li><li> \\({p_{\text{target}}}\\) is the target position (\\({\text{m}}\\)) </li></ul>|
+|Notes|<ul><li> \\({p_{\text{land}}}\\) is from [IM:calOfLandingDist](). </li><li> The constraints \\({p_{\text{land}}}\gt{}0\\) and \\({p_{\text{target}}}\gt{}0\\) are from [A:posXDirection](). </li></ul>|
 |Source|--|
 |RefBy|[IM:messageIM](), [FR:Output-Values](), and [FR:Calculate-Values]()|
+
+</br>
 
 |Refname|IM:messageIM|
 |-|-|
