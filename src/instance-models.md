@@ -2,6 +2,8 @@
 
 This section transforms the problem defined in the [problem description](./problem-description.md) into one which is expressed in mathematical terms. It uses concrete symbols defined in the [data definitions](./data-definitions.md) to replace the abstract symbols in the models identified in [theoretical models](./theoretical-models.md) and [general definitions](./general-definitions.md).
 
+<div id="IM:calOfLandingTime">
+
 |Refname|IM:calOfLandingTime|
 |-|-|
 |Label|Calculation of landing time|
@@ -14,6 +16,8 @@ This section transforms the problem defined in the [problem description](./probl
 |Notes|<ul><li> The constraint \\(0\lt{}θ\lt{}\frac{π}{2}\\) is from [A:posXDirection]() and [A:yAxisGravity](), and is shown in [Fig:Launch](). </li><li> \\(g\\) is defined in [A:gravAccelValue](). </li><li> The constraint \\({t_{\text{flight}}}\gt{}0\\) is from [A:timeStartZero](). </li></ul>|
 |Source|--|
 |RefBy|[IM:calOfLandingDist](), [FR:Output-Values](), and [FR:Calculate-Values]()|
+
+</div>
 
 #### Detailed derivation of flight duration:
 
@@ -37,6 +41,8 @@ From [DD:speedIY]() (with \\({v^{\text{i}}}={v_{\text{launch}}}\\)) we can repla
 
 \\[{t_{\text{flight}}}=\frac{2 {v_{\text{launch}}} \sin\left(θ\right)}{g}\\]
 
+<div id="IM:calOfLandingDist">
+
 |Refname|IM:calOfLandingDist|
 |-|-|
 |Label|Calculation of landing position|
@@ -49,6 +55,8 @@ From [DD:speedIY]() (with \\({v^{\text{i}}}={v_{\text{launch}}}\\)) we can repla
 |Notes|<ul><li> The constraint \\(0\lt{}θ\lt{}\frac{π}{2}\\) is from [A:posXDirection]() and [A:yAxisGravity](), and is shown in [A:Fig:Launch](). </li><li> \\(g\\) is defined in [A:gravAccelValue](). </li><li> The constraint \\({p_{\text{land}}}\gt{}0\\) is from [A:posXDirection](). </li></ul>|
 |Source|--|
 |RefBy|[IM:offsetIM]() and [FR:Calculate-Values]()|
+
+</div>
 
 #### Detailed derivation of landing position:
 
@@ -68,6 +76,8 @@ Rearranging this gives us the required equation:
 
 \\[{p_{\text{land}}}=\frac{2 {v_{\text{launch}}}^{2} \sin\left(θ\right) \cos\left(θ\right)}{g}\\]
 
+<div id="IM:offsetIM">
+
 |Refname|IM:offsetIM|
 |-|-|
 |Label|Offset|
@@ -81,7 +91,11 @@ Rearranging this gives us the required equation:
 |Source|--|
 |RefBy|[IM:messageIM](), [FR:Output-Values](), and [FR:Calculate-Values]()|
 
+</div>
+
 </br>
+
+<div id="IM:messageIM">
 
 |Refname|IM:messageIM|
 |-|-|
@@ -96,5 +110,4 @@ Rearranging this gives us the required equation:
 |Source|--|
 |RefBy|[FR:Output-Values]() and [FR:Calculate-Values]()|
 
-
-
+</div>
