@@ -1,8 +1,10 @@
 # Table of Symbols
 
-The symbols used in this document are summarized in the [Table of Symbols]() along with their units. Throughout the document, symbols in bold will represent vectors, and scalars otherwise. The symbols are listed in alphabetical order. For vector quantities, the units shown are for each component of the vector.
+The symbols used in this document are summarized in the [Table of Symbols](./table-of-symbols.md#Table:ToS) along with their units. Throughout the document, symbols in bold will represent vectors, and scalars otherwise. The symbols are listed in alphabetical order. For vector quantities, the units shown are for each component of the vector.
 
 ### Option 1 (MD with LaTeX):
+
+<div id="Table:ToS">
 
 |Symbol|Description|Units|
 |-|-|-|
@@ -44,6 +46,8 @@ The symbols used in this document are summarized in the [Table of Symbols]() alo
 |\\(π\\)|Ratio of circumference to diameter for any circle|--|
 
 **<p align="center">Table of Symbols</p>**
+
+</div>
 
 ### Option 2 (HTML):
 
