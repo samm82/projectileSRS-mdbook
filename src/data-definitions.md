@@ -2,6 +2,8 @@
 
 This section collects and defines all the data needed to build the instance models.
 
+<div id = "DD:vecMag">
+
 |Refname|DD:vecMag|
 |-|-|
 |Label|Speed|
@@ -13,7 +15,11 @@ This section collects and defines all the data needed to build the instance mode
 |Source|--|
 |RefBy|[DD:speedIY]() and [DD:speedIX]()|
 
+</div>
+
 </br>
+
+<div id="DD:speedIX">
 
 |Refname|DD:speedIX|
 |-|-|
@@ -26,7 +32,11 @@ This section collects and defines all the data needed to build the instance mode
 |Source|--|
 |RefBy|[IM:calOfLandingDist]()|
 
+</div>
+
 </br>
+
+<div id="DD:speedIY">
 
 |Refname|DD:speedIY|
 |-|-|
@@ -38,3 +48,5 @@ This section collects and defines all the data needed to build the instance mode
 |Notes|<ul><li> \\({v^{\text{i}}}\\) is from [DD:vecMag](). </li><li> \\(θ\\) is shown in [Figure:Launch](). </li></ul>|
 |Source|--|
 |RefBy|[IM:calOfLandingTime]()|
+
+</div>
