@@ -10,10 +10,14 @@ Calculate-Values: Calculate the following values: \\({t_{\text{flight}}}\\) (fro
 
 Output-Values: Output \\({t_{\text{flight}}}\\) (from [IM:calOfLandingTime]()), \\(s\\) (from [IM:messageIM]()), and \\({d_{\text{offset}}}\\) (from [IM:offsetIM]()).
 
+<div id="Table:ReqInputs">
+
 |Symbol|Description|Units|
 |-|-|-|
 |\\({p_{\text{target}}}\\)|Target position|\\({\text{m}}\\)|
 |\\({v_{\text{launch}}}\\)|Launch speed|\\(\frac{\text{m}}{\text{s}}\\)|
 |\\(θ\\)|Launch angle|\\({\text{rad}}\\)|
+
+</div>
 
 **<p align="center">Required Inputs following <a href="">FR:Input-Values</a></p>**
