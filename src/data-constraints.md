@@ -8,4 +8,4 @@ The [Data Constraints Table]() shows the data constraints on the input variables
 |\\({v_{\text{launch}}}\\)|\\({v_{\text{launch}}}\gt{}0\\)|\\(100\\) \\(\frac{\text{m}}{\text{s}}\\)|10\\(\\%\\)|
 |\\(θ\\)|\\(0\lt{}θ\lt{}\frac{π}{2}\\)|\\(\frac{π}{4}\\) \\({\text{rad}}\\)|10\\(\\%\\)|
 
-<p align="center">Input Data Constraints</p>
+**<p align="center">Input Data Constraints</p>**

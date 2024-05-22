@@ -9,4 +9,4 @@ PS2: The projectile (with initial velocity \\({\boldsymbol{v}^{\text{i}}}\\) and
 PS3: The target.
 
 ![Launch](./images/Launch.jpg)
-<p align="center">The physical system</p>
+**<p align="center">The physical system</p>**

@@ -3,7 +3,7 @@
 [Fig:sysCtxDiag]() shows the system context. A circle represents an entity external to the software, the user in this case. A rectangle represents the software system itself (Projectile). Arrows are used to show the data flow between the system and its environment.
 
 ![System Context Figure](../images/SystemContextFigure.png)
-<p align="center">System Context</p>
+**<p align="center">System Context</p>**
 
 The interaction between the product and the user is through an application programming interface. The responsibilities of the user and the system are as follows:
 

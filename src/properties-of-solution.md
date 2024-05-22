@@ -8,4 +8,4 @@ The [Data Constraints Table]() shows the data constraints on the output variable
 |\\({d_{\text{offset}}}\\)|\\({d_{\text{offset}}}\gt{}-{p_{\text{target}}}\\)|
 |\\({t_{\text{flight}}}\\)|\\({t_{\text{flight}}}\gt{}0\\)|
 
-<p align="center">Output Data Constraints</p>
+**<p align="center">Output Data Constraints</p>**

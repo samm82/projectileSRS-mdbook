@@ -20,7 +20,7 @@ The purpose of the traceability matrices is to provide easy references on what h
 |[A:timeStartZero]()||||||||||||||||
 |[A:gravAccelValue]()||||||||||||||||
 
-<p align="center">Traceability Matrix Showing the Connections Between Assumptions and Other Assumptions</p>
+**<p align="center">Traceability Matrix Showing the Connections Between Assumptions and Other Assumptions</p>**
 
 </br>
 
@@ -40,7 +40,7 @@ The purpose of the traceability matrices is to provide easy references on what h
 |[IM:offsetIM]()|||||||||||X|||
 |[IM:messageIM]()||||||||||||X||
 
-<p align="center">Traceability Matrix Showing the Connections Between Items and Other Sections</p>
+**<p align="center">Traceability Matrix Showing the Connections Between Items and Other Sections</p>**
 
 </br>
 
@@ -58,29 +58,29 @@ The purpose of the traceability matrices is to provide easy references on what h
 |[NFR:Maintainable]()||||||||||||||||||||||||
 |[NFR:Portable]()||||||||||||||||||||||||
 
-<p align="center">Traceability Matrix Showing the Connections Between Requirements, Goal Statements and Other Items</p>
+**<p align="center">Traceability Matrix Showing the Connections Between Requirements, Goal Statements and Other Items</p>**
 
 The purpose of the traceability graphs is also to provide easy references on what has to be additionally modified if a certain component is changed. The arrows in the graphs represent dependencies. The component at the tail of an arrow is depended on by the component at the head of that arrow. Therefore, if a component is changed, the components that it points to should also be changed. [Fig:TraceGraphAvsA]() shows the dependencies of assumptions on each other. [Fig:TraceGraphAvsAll]() shows the dependencies of data definitions, theoretical models, general definitions, instance models, requirements, likely changes, and unlikely changes on the assumptions. [Fig:TraceGraphRefvsRef]() shows the dependencies of data definitions, theoretical models, general definitions, and instance models on each other. [Fig:TraceGraphAllvsR]() shows the dependencies of requirements and goal statements on the data definitions, theoretical models, general definitions, and instance models. [Fig:TraceGraphAllvsAll]() shows the dependencies of dependencies of assumptions, models, definitions, requirements, goals, and changes with each other.
 
 ![TraceGraphAvsA](./traceygraphs/avsa.svg)
 
-<p align="center">TraceGraphAvsA</p>
+**<p align="center">TraceGraphAvsA</p>**
 
 ![TraceGraphAvsAll](./traceygraphs/avsall.svg)
 
-<p align="center">TraceGraphAvsAll</p>
+**<p align="center">TraceGraphAvsAll</p>**
 
 ![TraceGraphRefvsRef](./traceygraphs/refvsref.svg)
 
-<p align="center">TraceGraphRefvsRef</p>
+**<p align="center">TraceGraphRefvsRef</p>**
 
 ![TraceGraphAllvsR](./traceygraphs/allvsr.svg)
 
-<p align="center">TraceGraphAllvsR</p>
+**<p align="center">TraceGraphAllvsR</p>**
 
 ![TraceGraphAllvsAll](./traceygraphs/allvsall.svg)
 
-<p align="center">TraceGraphAllvsAll</p>
+**<p align="center">TraceGraphAllvsAll</p>**
 
 For convenience, the following graphs can be found at the links below:
 

@@ -19,7 +19,7 @@
 |TM|Theoretical Model|
 |Uncert.|Typical Uncertainty|
 
-<p align="center">Abbreviations and Acronyms</p>
+**<p align="center">Abbreviations and Acronyms</p>**
 
 ### Option 2 (HTML):
 

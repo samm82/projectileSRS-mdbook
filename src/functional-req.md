@@ -16,4 +16,4 @@ Output-Values: Output \\({t_{\text{flight}}}\\) (from [IM:calOfLandingTime]()), 
 |\\({v_{\text{launch}}}\\)|Launch speed|\\(\frac{\text{m}}{\text{s}}\\)|
 |\\(θ\\)|Launch angle|\\({\text{rad}}\\)|
 
-<p align="center">Required Inputs following <a href="">FR:Input-Values</a></p>
+**<p align="center">Required Inputs following <a href="">FR:Input-Values</a></p>**

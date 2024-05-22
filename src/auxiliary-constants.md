@@ -8,4 +8,4 @@ This section contains the standard values that are used for calculations in Proj
 |\\(ε\\)|hit tolerance|\\(2.0\\%\\)|--|
 |\\(π\\)|ratio of circumference to diameter for any circle|\\(3.14159265\\)|--|
 
-<p align="center">Auxiliary Constants</p>
+**<p align="center">Auxiliary Constants</p>**

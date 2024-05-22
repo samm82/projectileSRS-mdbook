@@ -43,7 +43,7 @@ The symbols used in this document are summarized in the [Table of Symbols]() alo
 |\\(θ\\)|Launch angle|\\({\text{rad}}\\)|
 |\\(π\\)|Ratio of circumference to diameter for any circle|--|
 
-<p align="center">Table of Symbols</p>
+**<p align="center">Table of Symbols</p>**
 
 ### Option 2 (HTML):
 

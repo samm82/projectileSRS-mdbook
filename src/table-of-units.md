@@ -10,7 +10,7 @@ The unit system used throughout is SI (Système International d'Unités). In add
 |\\(rad\\)|angle      |radian |
 |\\(s\\)  |time       |second |
 
-<p align="center">Table of Units</p>
+**<p align="center">Table of Units</p>**
 
 ### Option 2 (HTML):
 
