@@ -15,7 +15,7 @@ This section transforms the problem defined in the [problem description](./probl
 |Description|<ul><li> \\({t_{\text{flight}}}\\) is the flight duration (\\({\text{s}}\\)) </li><li> \\({v_{\text{launch}}}\\) is the launch speed (\\(\frac{\text{m}}{\text{s}}\\)) </li><li> \\(θ\\) is the launch angle (\\({\text{rad}}\\)) </li><li> \\(g\\) is the magnitude of gravitational acceleration (\\(\frac{\text{m}}{\text{s}^{2}}\\)) </li></ul>|
 |Notes|<ul><li> The constraint \\(0\lt{}θ\lt{}\frac{π}{2}\\) is from [A:posXDirection](./assumptions.md#posXDirection) and [A:yAxisGravity](./assumptions.md#yAxisGravity), and is shown in [Fig:Launch](./physical-sys-description.md#Figure:Launch). </li><li> \\(g\\) is defined in [A:gravAccelValue](./assumptions.md#gravAccelValue). </li><li> The constraint \\({t_{\text{flight}}}\gt{}0\\) is from [A:timeStartZero](./assumptions.md#timeStartZero). </li></ul>|
 |Source|--|
-|RefBy|[IM:calOfLandingDist](./instance-models.md#IM:calOfLandingDist), [FR:Output-Values](./functional-req.md#outputValues), and [FR:Calculate-Values](./functional-req.md#calculateValues)|
+|RefBy|[IM:calOfLandingDist](./instance-models.md#IM:calOfLandingDist), [FR:Output-Values](./functional-req.md#outputValues), and [FR:Calculate-Values](./functional-req.md#calcValues)|
 
 </div>
 
@@ -54,7 +54,7 @@ From [DD:speedIY](./data-definitions.md#DD:speedIY) (with \\({v^{\text{i}}}={v_{
 |Description|<ul><li> \\({p_{\text{land}}}\\) is the landing position (\\({\text{m}}\\)) </li><li> \\({v_{\text{launch}}}\\) is the launch speed (\\(\frac{\text{m}}{\text{s}}\\)) </li><li> \\(θ\\) is the launch angle (\\({\text{rad}}\\)) </li><li> \\(g\\) is the magnitude of gravitational acceleration (\\(\frac{\text{m}}{\text{s}^{2}}\\)) </li></ul>|
 |Notes|<ul><li> The constraint \\(0\lt{}θ\lt{}\frac{π}{2}\\) is from [A:posXDirection](./assumptions.md#posXDirection) and [A:yAxisGravity](./assumptions.md#yAxisGravity), and is shown in [Fig:Launch](./physical-sys-description.md#Figure:Launch). </li><li> \\(g\\) is defined in [A:gravAccelValue](./assumptions.md#gravAccelValue). </li><li> The constraint \\({p_{\text{land}}}\gt{}0\\) is from [A:posXDirection](./assumptions.md#posXDirection). </li></ul>|
 |Source|--|
-|RefBy|[IM:offsetIM](./instance-models.md#IM:offsetIM) and [FR:Calculate-Values](./functional-req.md#calculateValues)|
+|RefBy|[IM:offsetIM](./instance-models.md#IM:offsetIM) and [FR:Calculate-Values](./functional-req.md#calcValues)|
 
 </div>
 
@@ -89,7 +89,7 @@ Rearranging this gives us the required equation:
 |Description|<ul><li> \\({d_{\text{offset}}}\\) is the distance between the target position and the landing position (\\({\text{m}}\\)) </li><li> \\({p_{\text{land}}}\\) is the landing position (\\({\text{m}}\\)) </li><li> \\({p_{\text{target}}}\\) is the target position (\\({\text{m}}\\)) </li></ul>|
 |Notes|<ul><li> \\({p_{\text{land}}}\\) is from [IM:calOfLandingDist](./instance-models.md#IM:calOfLandingDist). </li><li> The constraints \\({p_{\text{land}}}\gt{}0\\) and \\({p_{\text{target}}}\gt{}0\\) are from [A:posXDirection](./assumptions.md#posXDirection). </li></ul>|
 |Source|--|
-|RefBy|[IM:messageIM](./instance-models.md#IM:messageIM), [FR:Output-Values](./functional-req.md#outputValues), and [FR:Calculate-Values](./functional-req.md#calculateValues)|
+|RefBy|[IM:messageIM](./instance-models.md#IM:messageIM), [FR:Output-Values](./functional-req.md#outputValues), and [FR:Calculate-Values](./functional-req.md#calcValues)|
 
 </div>
 
@@ -108,6 +108,6 @@ Rearranging this gives us the required equation:
 |Description|<ul><li> \\(s\\) is the output message as a string (Unitless) </li><li> \\({d_{\text{offset}}}\\) is the distance between the target position and the landing position (\\({\text{m}}\\)) </li><li> \\({p_{\text{target}}}\\) is the target position (\\({\text{m}}\\)) </li><li> \\(ε\\) is the hit tolerance (Unitless) </li></ul>|
 |Notes|<ul><li> \\({d_{\text{offset}}}\\) is from [IM:offsetIM](./instance-models.md#IM:offsetIM). </li><li> The constraint \\({p_{\text{target}}}\gt{}0\\) is from [A:posXDirection](./assumptions.md#posXDirection). </li><li> The constraint \\({d_{\text{offset}}}\gt{}-{p_{\text{target}}}\\) is from the fact that \\({p_{\text{land}}}\gt{}0\\), from [A:posXDirection](./assumptions.md#posXDirection). </li><li> \\(ε\\) is defined in [Sec:Values of Auxiliary Constants](./auxiliary-constants.md). </li></ul>|
 |Source|--|
-|RefBy|[FR:Output-Values](./functional-req.md#outputValues) and [FR:Calculate-Values](./functional-req.md#calculateValues)|
+|RefBy|[FR:Output-Values](./functional-req.md#outputValues) and [FR:Calculate-Values](./functional-req.md#calcValues)|
 
 </div>
