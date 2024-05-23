@@ -1,6 +1,6 @@
 # Properties of a Correct Solution
 
-The [Data Constraints Table]() shows the data constraints on the output variables. The column for physical constraints gives the physical limitations on the range of values that can be taken by the variable.
+The [Data Constraints Table](./properties-of-solution.md#Table:OutDataConstraints) shows the data constraints on the output variables. The column for physical constraints gives the physical limitations on the range of values that can be taken by the variable.
 
 <div id="Table:OutDataConstraints">
 
