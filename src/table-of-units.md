@@ -1,6 +1,6 @@
 # Table of Units
 
-The unit system used throughout is SI (Système International d'Unités). In addition to the basic units, several derived units are also used. For each unit, the [Table of Units](#Table:ToU) lists the symbol, a description, and the SI name.
+The unit system used throughout is SI (Système International d'Unités). In addition to the basic units, several derived units are also used. For each unit, the [Table of Units](./table-of-units.md#Table:ToU) lists the symbol, a description, and the SI name.
 
 ### Option 1 (MD with LaTeX):
 

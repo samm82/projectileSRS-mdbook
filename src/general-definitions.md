@@ -64,7 +64,7 @@ Performing the integration, we have the required equation:
 
 </br>
 
-<div id="GD:velVel">
+<div id="GD:velVec">
 
 |Refname|GD:velVec|
 |-|-|
