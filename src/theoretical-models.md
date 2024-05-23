@@ -11,8 +11,8 @@ This section focuses on the general equations and laws that Projectile is based 
 |Label|Acceleration|
 |Equation|\\[\boldsymbol{a}\text{(}t\text{)}=\frac{\\,d\boldsymbol{v}\text{(}t\text{)}}{\\,dt}\\]|
 |Description|<ul><li>\\(\boldsymbol{a}\text{(}t\text{)}\\) is the acceleration \\((\frac{\text{m}}{\text{s}^{2}})\\) </li><li> \\(t\\) is the time (\\({\text{s}}\\)) </li><li> \\(\boldsymbol{v}\text{(}t\text{)}\\) is the velocity (\\(\frac{\text{m}}{\text{s}}\\))</li></ul>|
-|Source|[accelerationWiki]()|
-|RefBy|[GD:rectVel]()|
+|Source|[accelerationWiki](./references.md#accelerationWiki)|
+|RefBy|[GD:rectVel](./general-definitions.md#GD:rectVel)|
 
 </div>
 
@@ -25,8 +25,8 @@ This section focuses on the general equations and laws that Projectile is based 
 |Label|Velocity|
 |Equation|\\[\boldsymbol{v}\text{(}t\text{)}=\frac{\\,d\boldsymbol{p}\text{(}t\text{)}}{\\,dt}\\]|
 |Description|<ul><li>\\(\boldsymbol{v}\text{(}t\text{)}\\) is the velocity \\((\frac{\text{m}}{\text{s}})\\) </li><li> \\(t\\) is the time (\\({\text{s}}\\)) </li><li> \\(\boldsymbol{p}\text{(}t\text{)}\\) is the position (\\(\text{m}\\))</li></ul>|
-|Source|[velocityWiki]()|
-|RefBy|[GD:rectPos]()|
+|Source|[velocityWiki](./references.md#velocityWiki)|
+|RefBy|[GD:rectPos](./general-definitions.md#GD:rectPos)|
 
 </div>
 
