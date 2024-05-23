@@ -4,7 +4,7 @@ This section provides the functional requirements, the tasks and behaviours that
 
 <div id="inputValues">
 
-Input-Values: Input the values from [Tab:ReqInputs]().
+Input-Values: Input the values from [Tab:ReqInputs](./functional-req.md#Table:ReqInputs).
 
 </div>
 
@@ -16,13 +16,13 @@ Verify-Input-Values: Check the entered input values to ensure that they do not e
 
 <div id="calcValues">
 
-Calculate-Values: Calculate the following values: \\({t_{\text{flight}}}\\) (from [IM:calOfLandingTime]()), \\({p_{\text{land}}}\\) (from [IM:calOfLandingDist]()), \\({d_{\text{offset}}}\\) (from [IM:offsetIM]()), and \\(s\\) (from [IM:messageIM]()).
+Calculate-Values: Calculate the following values: \\({t_{\text{flight}}}\\) (from [IM:calOfLandingTime](./instance-models.md#IM:calOfLandingTime)), \\({p_{\text{land}}}\\) (from [IM:calOfLandingDist](./instance-models.md#IM:calOfLandingDist)), \\({d_{\text{offset}}}\\) (from [IM:offsetIM](./instance-models.md#IM:offsetIM)), and \\(s\\) (from [IM:messageIM](./instance-models.md#IM:messageIM)).
 
 </div>
 
 <div id="outputValues">
 
-Output-Values: Output \\({t_{\text{flight}}}\\) (from [IM:calOfLandingTime]()), \\(s\\) (from [IM:messageIM]()), and \\({d_{\text{offset}}}\\) (from [IM:offsetIM]()).
+Output-Values: Output \\({t_{\text{flight}}}\\) (from [IM:calOfLandingTime](./instance-models.md#IM:calOfLandingTime)), \\(s\\) (from [IM:messageIM](./instance-models.md#IM:messageIM)), and \\({d_{\text{offset}}}\\) (from [IM:offsetIM](./instance-models.md#IM:offsetIM)).
 
 </div>
 
@@ -36,4 +36,4 @@ Output-Values: Output \\({t_{\text{flight}}}\\) (from [IM:calOfLandingTime]()), 
 
 </div>
 
-**<p align="center">Required Inputs following <a href="">FR:Input-Values</a></p>**
+**<p align="center">Required Inputs following <a href="./functional-req.md#inputValues">FR:Input-Values</a></p>**
