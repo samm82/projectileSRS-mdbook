@@ -15,13 +15,13 @@ Please follow the installation instructions in the [mdBook Documentation](https:
 
 ## mdBook Quirks
 
-- Have to wrap text reference anchors in `<a id=""></a>` to be able to be referenced.
+- Have to wrap certain elements in `<div id=""></div>` to be able to be referenced.
 - Cannot add captions to tables and images. Have to use `<p align="center">CAPTION</p>`.
 - Mathjax LaTeX equations do not wrap similar to LaTeX (`$EQUATION$`) or HTML (`\(EQUATION\)`). mdBook syntax is `\\(EQUATION\\)` for inline and `\\[EQUATION\\]` for block equations.
 - Some elements of equations require an extra `\`. Ex. new line is `\\\`.
 - `\symbf` does not work in Mathjax LaTeX equations, have to use `\boldsymbol` instead.
 - Typical list syntax does not work inside tables in Markdown. Have to wrap in `<ul> <li>item1</li> <li>item2</li> </ul>`.
-- Accessible assets (Ex. images) need to be inside the `src` folder in order to be rendered.
+- Accessible assets (Ex. images) need to be inside the `src` folder in order to be rendered. NOTE: There may be a way to use assets outside `src` through the `book.toml`
 - Sometimes there is very little space or no space at all between components. Added `</br>` to add extra space.
 - Need to add mathjax support in the `book.toml`. Not added by default.
 
