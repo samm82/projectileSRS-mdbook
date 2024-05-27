@@ -4,7 +4,7 @@
 
 <div id="Figure:sysCtxDiag">
 
-![System Context Figure](../images/SystemContextFigure.png)
+![System Context Figure](https://jacquescarette.github.io/Drasil/datafiles/projectile/SystemContextFigure.png "System Context")
 **<p align="center">System Context</p>**
 
 </div>
